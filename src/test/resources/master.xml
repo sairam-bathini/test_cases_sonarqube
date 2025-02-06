@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "httpS://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+
+            <!--            <class name="test_Cases.Admin_login_pop_up"/>-->
+            <!--            <class name="test_Cases.Admin_Forgot_Password_Reset_Password"/>-->
+            <!--            <class name="test_Cases.Admin_User_Profile"/>-->
+            <!--            <class name="test_Cases.Admin_Dashboard"/>-->
+            <!--            <class name="test_Cases.Admin_PlayerManagement_Table_View"/>-->
+            <!--            <class name="test_Cases.Admin_Player_Details"/>-->
+            <!--            <class name="test_Cases.Admin_Application_Mngt_ListView"></class>-->
+            <!--            <class name="test_Cases.Admin_Application_Overview"></class>-->
+            <!--            <class name="test_Cases.Admin_WithdrawRefund_PopOut"></class>-->
+            <!--            <class name="test_Cases.Admin_ChampManagement_Dashboard"></class>-->
+            <!--            <class name="test_Cases.Admin_Event_Details"></class>-->
+            <!--            <class name="test_Cases.Admin_Event_Details_RedBook_View"></class>-->
+            <!--            <class name="test_Cases.Admin_Event_Details_Pairings"></class>-->
+            <!--            <class name="test_Cases.Admin_Event_Details_Bulk_Withdraw"></class>-->
+            <!--            <class name="test_Cases.Admin_ChampManagement_Create_Team"></class>-->
+            <!--            <class name="test_Cases.Admin_Players_Eligible_for_Late_Applications"></class>-->
+            <!--            <class name="test_Cases.Admin_QualifyingSite_Management_List_Table_View"></class>-->
+            <!--            <class name="test_Cases.Admin_Add_Site"></class>-->
+            <!--            <class name="test_Cases.Admin_Detail_Page"></class>-->
+            <!--            <class name="test_Cases.Admin_Email_Management_Dashboard"></class>-->
+            <!--            <class name="test_Cases.Admin_New_Email"></class>-->
+            <!--            <class name="test_Cases.Admin_Bulk_Emails_To_Clubs"></class>-->
+            <!--            <class name="test_Cases.Admin_Bulk_Final_Confirmation"></class>-->
+            <!--            <class name="test_Cases.Admin_Bulk_Incomplete_Side_Emails"></class>-->
+            <!--            <class name="test_Cases.Admin_Bulk_Qualified_Alternate"></class>-->
+            <!--            <class name="test_Cases.Admin_BulkWithdraw_Incomplete_Side"></class>-->
+            <class name="test_Cases.Admin_Bulk_Email_to_All_Players"></class>
+
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
